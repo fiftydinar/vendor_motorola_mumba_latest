@@ -1,0 +1,261 @@
+{
+  "config": {
+    "hw_platform": ["QRD"],
+    "soc_id": ["537", "583", "613", "631", "633", "634", "638", "663","715"]
+  },
+  "stk6a2x_0":{
+    "owner": "sns_stk6a2x",
+    ".ambient_light":{
+      "owner": "sns_stk6a2x",
+      ".config":{
+        "owner": "sns_stk6a2x",
+        "is_dri":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "hw_id":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "res_idx":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "sync_stream":{ "type": "int", "ver": "0",
+          "data": "0"
+        }
+      }
+    },
+    ".flicker":{
+      "owner": "sns_stk6a2x",
+      ".config":{
+        "owner": "sns_stk6a2x",
+        "is_dri":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "hw_id":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "res_idx":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "sync_stream":{ "type": "int", "ver": "0",
+          "data": "0"
+        }
+      }
+    }
+  },
+  "stk6a2x_0_platform":{
+    "owner": "sns_stk6a2x",
+    ".config":{
+      "owner": "sns_stk6a2x",
+      "bus_type":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "bus_instance":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "slave_config":{ "type": "int", "ver": "0",
+        "data": "71"
+      },
+      "min_bus_speed_khz":{ "type": "int", "ver": "0",
+        "data": "400"
+      },
+      "max_bus_speed_khz":{ "type": "int", "ver": "0",
+        "data": "400"
+      },
+      "reg_addr_type":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "dri_irq_num":{ "type": "int", "ver": "0",
+        "data": "89"
+      },
+      "irq_pull_type":{ "type": "int", "ver": "0",
+        "data": "2"
+      },
+      "irq_is_chip_pin":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "irq_drive_strength":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "irq_trigger_type":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "num_rail":{ "type": "int", "ver": "0",
+        "data": "2"
+      },
+      "rail_on_state":{ "type": "int", "ver": "0",
+        "data": "2"
+      },
+      "vdd_rail":{ "type": "str", "ver": "0",
+        "data": "/pmic/client/sensor_vdd"
+      },
+      "vddio_rail":{ "type": "str", "ver": "0",
+        "data": "/pmic/client/sensor_vddio"
+      },
+      "rigid_body_type":{ "type": "int", "ver": "0",
+      "data": "0"
+      }
+    },
+	".als":{
+      "owner": "sns_stk6a2x",
+      ".fac_cal":{
+        "owner": "sns_stk6a2x",
+        "scale0":{ "type": "flt", "ver": "0",
+          "data": "1000.0"
+        },
+        "bias0":{ "type": "flt", "ver": "0",
+          "data": "5000.0"
+        },
+        "scale1":{ "type": "flt", "ver": "0",
+          "data": "1000.0"
+        },
+        "bias1":{ "type": "flt", "ver": "0",
+          "data": "5000.0"
+        },
+        "target_lux":{ "type": "flt", "ver": "0",
+          "data": "500.0"
+        },
+        "default_scale":{ "type": "flt", "ver": "0",
+          "data": "1137.0"
+        }
+      },
+      ".fac_samples_rgb_gamma":{
+        "owner": "sns_stk6a2x",
+        "sample_1":{ "type": "flt", "ver": "0",
+          "data": "0"
+        },
+        "sample_2":{ "type": "flt", "ver": "0",
+          "data": "0"
+        },
+        "sample_3":{ "type": "flt", "ver": "0",
+          "data": "0"
+        },
+        "sample_4":{ "type": "flt", "ver": "0",
+          "data": "0"
+        },
+        "sample_5":{ "type": "flt", "ver": "0",
+          "data": "0"
+        },
+        "sample_6":{ "type": "flt", "ver": "0",
+          "data": "0"
+        }
+      },
+      ".fac_samples_brightness_gamma":{
+        "owner": "sns_stk6a2x",
+        "sample_1":{ "type": "flt", "ver": "0",
+          "data": "0"
+        },
+        "sample_2":{ "type": "flt", "ver": "0",
+          "data": "0"
+        },
+        "sample_3":{ "type": "flt", "ver": "0",
+          "data": "0"
+        },
+        "sample_4":{ "type": "flt", "ver": "0",
+          "data": "0"
+        },
+        "sample_5":{ "type": "flt", "ver": "0",
+          "data": "0"
+        },
+        "sample_6":{ "type": "flt", "ver": "0",
+          "data": "0"
+        }
+      },
+      ".fac_samples_max_brightness":{
+        "owner": "sns_stk6a2x",
+        "sample_1":{ "type": "flt", "ver": "0",
+          "data": "0"
+        },
+        "sample_2":{ "type": "flt", "ver": "0",
+          "data": "0"
+        },
+        "sample_3":{ "type": "flt", "ver": "0",
+          "data": "0"
+        },
+        "sample_4":{ "type": "flt", "ver": "0",
+          "data": "0"
+        },
+        "sample_5":{ "type": "flt", "ver": "0",
+          "data": "0"
+        },
+        "sample_6":{ "type": "flt", "ver": "0",
+          "data": "0"
+        }
+      }
+    }
+  },
+  "stk6a2x_0_private":{
+    "owner": "sns_stk6a2x",
+    ".config":{
+      "owner": "sns_stk6a2x",
+      "als0_dgain":{ "type": "int", "ver": "0",
+        "data": "4"
+      },
+      "als1_dgain":{ "type": "int", "ver": "0",
+        "data": "4"
+      },
+      "als0_again":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "als1_again":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "wait1":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "wait2":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "autogain":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "autogain0":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "autogain1":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "max_dgain":{ "type": "int", "ver": "0",
+        "data": "7"
+      }
+    },
+    ".als_coefficient":{
+      "owner": "sns_stk6a2x",
+      "ratio_c":{ "type": "int", "ver": "0",
+        "data": "1060"
+      },
+      "ratio_d":{ "type": "int", "ver": "0",
+        "data": "3074"
+      },
+      "ratio_a":{ "type": "int", "ver": "0",
+        "data": "4366"
+      },
+      "ratio_h":{ "type": "int", "ver": "0",
+        "data": "7429"
+      },
+      "slope_c":{ "type": "flt", "ver": "0",
+        "data": "1.02"
+      },
+      "slope_d":{ "type": "flt", "ver": "0",
+        "data": "0.474"
+      },
+      "slope_a":{ "type": "flt", "ver": "0",
+        "data": "0.419"
+      },
+      "slope_h":{ "type": "flt", "ver": "0",
+        "data": "0.215"
+      },
+      "slope_cali_c":{ "type": "flt", "ver": "0",
+        "data": "1.0"
+      },
+      "slope_cali_d":{ "type": "flt", "ver": "0",
+        "data": "0.474"
+      },
+      "slope_cali_a":{ "type": "flt", "ver": "0",
+        "data": "0.408"
+      },
+      "slope_cali_h":{ "type": "flt", "ver": "0",
+        "data": "0.21"
+      }
+    }
+  }
+}
